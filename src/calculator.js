@@ -8,7 +8,7 @@ const NB_INITIAL_MALADES = 2000
 const NB_INITIAL_REMIS = 200
 const NB_INITIAL_MORTS = 50
 
-const NB_JOURS_SIMULATION = 180
+const NB_JOURS_SIMULATION = 360
 
 const calcul = (nbContactsQuotidien, probaTransmission) => calculComplet(NB_INITIAL_MALADES, NB_INITIAL_REMIS, NB_INITIAL_MORTS, NB_JOURS_SIMULATION, POPULATION_TOTALE, DUREE_MALADIE, TAUX_MORTALITE, nbContactsQuotidien, probaTransmission)
 
